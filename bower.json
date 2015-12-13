@@ -1,0 +1,24 @@
+{
+  "name": "iothub-angular",
+  "description": "AngularJS module for IoTHuB",
+  "main": "index.js",
+  "authors": [
+    "Przemysław Płyś <przemyslaw.plys@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "iot"
+  ],
+  "homepage": "https://github.com/plysiu/iothub-angular",
+  "moduleType": [
+    "es6"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

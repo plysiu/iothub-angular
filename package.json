@@ -1,0 +1,22 @@
+{
+  "name": "iothub-angular",
+  "version": "1.0.0",
+  "description": "AngularJS module for IoTHuB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plysiu/iothub-angular.git"
+  },
+  "keywords": [
+    "iot"
+  ],
+  "author": "Przemysław Płyś <przemyslaw.plys@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plysiu/iothub-angular/issues"
+  },
+  "homepage": "https://github.com/plysiu/iothub-angular#readme"
+}
