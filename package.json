@@ -2,7 +2,7 @@
   "name": "iothub-angular",
   "version": "1.0.0",
   "description": "AngularJS module for IoTHuB",
-  "main": "index.js",
+  "main": "iothub-angular.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
