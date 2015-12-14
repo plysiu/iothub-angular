@@ -1,13 +1,10 @@
 angular.module('iothub', ['ngResource'])
-    .constant('iothubConfig', {
-        'host': 'https://api.iothub.pl/'
+    .constant('iothubConstants', {
+        'host': 'http://api.iothub.pl'
     })
     .config(['$resourceProvider', function ($resourceProvider) {
         $resourceProvider.defaults.stripTrailingSlashes = false;
     }])
-    .factory('ThingService'
-{
-
-}
-)
-;
+    .factory('ThingService', ['$resource', 'iothubConstants', function ($resource, iothubConstants) {
+        return $resource(iothubConstants.host + '/things/:id');
+    }]);
