@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/plysiu/iothub-angular/issues"
   },
-  "homepage": "https://github.com/plysiu/iothub-angular#readme"
+  "homepage": "https://github.com/plysiu/iothub-angular#readme",
+  "dependencies": {
+    "angular-resource": "^1.4.8"
+  }
 }
