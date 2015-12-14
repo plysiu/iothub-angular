@@ -19,5 +19,8 @@
     "url": "https://github.com/plysiu/iothub-angular/issues"
   },
   "homepage": "https://github.com/plysiu/iothub-angular#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.1"
+  }
 }
